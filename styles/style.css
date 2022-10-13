@@ -1,9 +1,11 @@
 @import url(./reset.css);
-@import url('https://fonts.googleapis.com/css2?family=Assistant&family=Lora&family=Tangerine:wght@700&display=swap'); /*upload fonts here */
+@import url('https://fonts.googleapis.com/css2?family=Assistant&family=Lora&family=Tangerine:wght@700&display=swap');
+/*upload fonts here */
 
-* {outline: 1px dashed #ccc;}
-
-html, body, main, header {
+html,
+body,
+main,
+header {
     height: 100%;
     width: 100%;
 }
@@ -32,11 +34,11 @@ em {
     display: flex;
 }
 
-.main-header > header {
+.main-header>header {
     background-color: rgb(210, 232, 246);
 }
 
-.main-header > header > h1 {
+.main-header>header>h1 {
     font-family: 'Tangerine', cursive;
     font-size: 90px;
     text-align: center;
@@ -45,7 +47,7 @@ em {
     margin-top: 20px;
 }
 
-.main-header > header > p {
+.main-header>header>p {
     font-family: 'Lora', serif;
     font-size: 25px;
     text-align: center;
@@ -61,7 +63,7 @@ em {
     background-color: rgb(226, 244, 228);
 }
 
-.main-bio > h2 {
+.main-bio>h2 {
     font-family: 'Lora', serif;
     font-size: 20px;
     text-shadow: 2px 2px rgb;
@@ -69,22 +71,22 @@ em {
     margin-top: 20px;
 }
 
-.main-bio > p:nth-child(even) {
+.main-bio>p:nth-child(even) {
     background-color: rgba(255, 255, 255, 0.5);
     border-radius: 25px;
     padding: 1em;
 }
 
-.main-bio > p:nth-child(odd) {
+.main-bio>p:nth-child(odd) {
     color: rgb(120, 64, 111);
 }
 
-.main-bio > p:nth-last-child(){
+.main-bio>p:nth-last-child() {
     margin-top: 100%;
     margin-bottom: 100%;
 }
 
-.main-bio > p > img {
+.main-bio>p>img {
     width: 300px;
     float: left;
     margin: 1em;
